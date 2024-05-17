@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    
+    background-image: url(img/Background-tela-de-cadastro.jpg);
+    background-repeat: no-repeat; /*nao repetir a imagem no plano de fundo */
+    background-size: cover; /* Serve para ampliar a imagem para o fundo todo*/
+
+}
+
+.imgfundo {
+
+    filter: blur(20px);
+}
+
+
+.quadro {
+
+    width: 1200px;
+    height: 800px;
+    background-color: #E3D4C2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+
+.navbar {
+
+    width: 1200px;
+    height: 200px;
+    background-color: #B89163;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
