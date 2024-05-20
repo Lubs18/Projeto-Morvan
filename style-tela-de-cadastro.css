@@ -21,16 +21,11 @@ body {
 
 }
 
-.imgfundo {
-
-    filter: blur(20px);
-}
-
 
 .quadro {
 
     width: 1200px;
-    height: 800px;
+    height: 850px;
     background-color: #E3D4C2;
     position: absolute;
     top: 50%;
@@ -42,13 +37,167 @@ body {
 .navbar {
 
     width: 1200px;
-    height: 200px;
-    background-color: #B89163;
+    height: 157px;
+    background-color: #b8906373;
     position: absolute;
-    top: 18%;
+    top: 13.2%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 
 }
+
+.navbar img {
+
+    width: 350px;
+    height: 120px;
+    position: absolute;
+    top: 48%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+}
+
+.barra-meio {
+
+    width: 2px;
+    height: 120px;
+    /* border: 1px solid white; */
+    background-color: white;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar h1 {
+
+    /*mudar a font da letra*/
+    position: absolute;
+    left: 55%;
+    top: 35%;
+    color: #7D5E39;
+}
+
+.bloco-nome {
+
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+
+}
+
+#nome {
+
+    width: 850px;
+    height: 30px;
+}
+
+.bloco-idade {
+
+    position: absolute;
+    top: 42%;
+    left: 582px;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+#Idade {
+
+    width: 100px;
+    height: 30px;
+}
+
+.bloco-Data-de-nascimento {
+
+    position: absolute;
+    top: 42%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+#Data-de-nascimento {
+
+    width: 200px;
+    height: 30px;
+}
+
+.bloco-CPF {
+
+    position: absolute;
+    top: 49%;
+    left: 675px;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+#CPF {
+
+    width: 300px;
+    height: 30px;
+}
+
+.bloco-Email {
+
+    position: absolute;
+    top: 49%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+#Email {
+
+    width: 470px;
+    height: 30px;
+}
+
+.bloco-Endereço {
+
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+#Endereço {
+
+    width: 820px;
+    height: 30px;
+}
+
+.bloco-Bairro {
+
+    position: absolute;
+    top: 63%;
+    left: 36.2%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+#Bairro {
+
+    width: 320px;
+    height: 30px;
+}
+
+.bloco-CEP {
+
+    position: absolute;
+    top: 63%;
+    left: 62.2%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+#CEP {
+
+    width: 400px;
+    height: 30px;
+}
+
+
