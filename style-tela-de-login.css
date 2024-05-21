@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+
+    background-image: url(img/pexels-fr3nks-305566.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.quadrado {
+
+    width: 35%;
+    height: 85%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    box-shadow: 0.5ex 0.5ex 0.5ex  ;
+    -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  }
+
+  h1 {
+
+    position: absolute;
+    left: 40%;
+    top: 8%;
+  }
+
+  .bloco-Email {
+
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  input {
+
+    width: 400px;
+    height: 40px;
+  }
+
+  .bloco-Senha {
+
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #btn  {
+
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
