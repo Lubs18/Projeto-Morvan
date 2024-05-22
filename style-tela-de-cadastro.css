@@ -254,6 +254,7 @@ body {
     color: black;
     font-size: 15px;
     box-shadow:  0.1em 0.1em 0.1em;
+    cursor: pointer;
 
 }
 

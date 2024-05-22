@@ -35,24 +35,24 @@ body {
     color: #572F00;
     position: absolute;
     top: 15%;
-    left: 40%;
+    left: 43%;
 }
 
 img {
 
-    width: 200px;
-    height: 200px;
+    width: 1in;
+    height: 1in;
     position: absolute;
     top: 25%;
-    left: 35%;
+    left: 43%;
 }
 
 p {
 
     font-size: 30px;
     position: absolute;
-    top: 60%;
-    left: 25%;
+    top: 45%;
+    left: 30%;
 }
 
 #btn{
@@ -64,6 +64,40 @@ p {
     position: absolute;
     top: 95%;
     left: 85%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    color: black;
+    font-size: 15px;
+    box-shadow:  0.1em 0.1em 0.1em;
+    cursor: pointer;
+}
+
+#btnt {
+
+    width: 180px;
+    height: 40px;
+    background-color: #C8AA86;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    color: black;
+    font-size: 15px;
+    box-shadow:  0.1em 0.1em 0.1em;
+    cursor: pointer;
+}
+
+#btnr {
+
+    width: 180px;
+    height: 40px;
+    background-color: #C8AA86;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 30%;
     transform: translate(-50%, -50%);
     border-radius: 30px;
     color: black;
