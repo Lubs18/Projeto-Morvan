@@ -13,12 +13,17 @@ a {
     color: inherit;
 }
 
+body {
+
+   background-color: #c8aa8694; 
+}
+
 .quadrado {
 
-    width: 120ch;
-    height: 100ex;
-    border: solid black;
-    background-color: #c8aa86b0;
+    width: 100ch;
+    height: 80ex;
+    /* border: solid black; */
+    background-color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,5 +35,32 @@ h1 {
 
     position: absolute;
     top: 15%;
-    left: 50%;
+    left: 40%;
+}
+
+p {
+
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    font-size: 3ex;
+    display: flex;
+    text-align: center;
+}
+
+#btn{
+
+    width: 150px;
+    height: 30px;
+    background-color: #C8AA86;
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    color: black;
+    font-size: 15px;
+    box-shadow:  0.1em 0.1em 0.1em;
+    cursor: pointer;
 }
