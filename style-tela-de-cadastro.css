@@ -21,6 +21,13 @@ body {
 
 }
 
+.imgfundo {
+
+    background-image: url(img/Background-tela-de-cadastro.jpg);
+    background-repeat: no-repeat; /*nao repetir a imagem no plano de fundo */
+    background-size: cover; /* Serve para ampliar a imagem para o fundo todo*/
+    filter: blur(2px);
+}
 
 .quadro {
 
