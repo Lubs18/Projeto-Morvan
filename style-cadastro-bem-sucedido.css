@@ -36,7 +36,8 @@ body {
     position: absolute;
     top: 15%;
     left: 40%;
-}
+    font-family: 'Antic Slab';
+ }
 
 img {
 
@@ -53,6 +54,8 @@ p {
     position: absolute;
     top: 60%;
     left: 25%;
+    font-family: 'Antic Slab';
+
 }
 
 #btn{
@@ -70,4 +73,6 @@ p {
     font-size: 15px;
     box-shadow:  0.1em 0.1em 0.1em;
     cursor: pointer;
+    font-family: 'Antic Slab';
+
 }

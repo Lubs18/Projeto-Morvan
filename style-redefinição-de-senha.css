@@ -36,6 +36,8 @@ h1 {
     position: absolute;
     top: 15%;
     left: 40%;
+    font-family: 'Antic Slab';
+
 }
 
 p {
@@ -46,6 +48,8 @@ p {
     font-size: 3ex;
     display: flex;
     text-align: center;
+    font-family: 'Antic Slab';
+
 }
 
 #btn{
@@ -63,4 +67,6 @@ p {
     font-size: 15px;
     box-shadow:  0.1em 0.1em 0.1em;
     cursor: pointer;
+    font-family: 'Antic Slab';
+
 }

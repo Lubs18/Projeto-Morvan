@@ -42,6 +42,8 @@ body {
     font-size: 6ex;
     display: flex;
     text-align: center;
+    font-family: 'Antic Slab';
+
 
   }
 
@@ -66,4 +68,6 @@ body {
     border-radius: 50px;
     font-size: 110%;
     cursor: pointer;
+    font-family: 'Antic Slab';
+
   }
