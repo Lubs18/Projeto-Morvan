@@ -112,3 +112,9 @@ flex-direction: column;
     
     font-size: 2em;
   }
+
+  #btn:hover {
+
+    background-color: #9F7748;
+    color: white;
+  }

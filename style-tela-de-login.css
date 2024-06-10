@@ -13,9 +13,18 @@ a {
     color: inherit;
 }
 
-body {
 
-  
+:root {
+  --black:#000000;
+  --white:#ffffff;
+  --light-grayish-orange:#E3D4C2;
+  --grayish-orange:#D3BB9F;
+  --slightly-desaturated-orange--light:#C8AA86;
+  --slightly-desaturated-orange--dark:#B89163;
+  --dark-moderate-orange--yellow-tone:#9F7748;
+  --dark-moderate-orange-black-tone:#7D5E39;
+  --very-dark-orange--brown-tone:#572F00;   
+  /* use "var()" nos lugares de cores e automaticamente vai puxar para escolher as cores de cima */
 }
 
 .imgfundo {
@@ -68,7 +77,8 @@ body {
 
     width: 55ch;
     height: 5ex;
-    background-color: rgba(128, 128, 128, 0.199);
+    background-color: rgba(128, 128, 128, 0.041);
+    border-radius: 5px;
   }
 
   .bloco-Senha {
@@ -91,7 +101,7 @@ body {
     border-radius: 50px;
     cursor: pointer;
     border: none;
-    box-shadow: 0.3em 0.3em rgba(128, 128, 128, 0.384);
+    box-shadow: 0.3em 0.3em rgba(128, 128, 128, 0.096);
   }
 
   #btn p {
@@ -109,6 +119,11 @@ body {
     font-size: 1.0rem;
   }
 
+  .Recuperacao-de-senha:hover {
+
+    text-decoration: underline;
+  }
+
  .Cadastrar-no-site {
 
   position: absolute;
@@ -116,6 +131,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.1rem;
+ }
+
+ .Cadastrar-no-site:hover {
+
+  text-decoration: underline;
  }
 
  .buttong {
@@ -184,4 +204,10 @@ body {
   position: absolute;
   top: 75%;
   left: 30%;
+}
+
+#btn:hover {
+
+  background-color: #9F7748;
+  color: white;
 }

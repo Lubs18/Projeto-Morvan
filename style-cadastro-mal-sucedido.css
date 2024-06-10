@@ -18,6 +18,19 @@ body {
     background-color: #E3D4C2;
 }
 
+:root {
+    --black:#000000;
+    --white:#ffffff;
+    --light-grayish-orange:#E3D4C2;
+    --grayish-orange:#D3BB9F;
+    --slightly-desaturated-orange--light:#C8AA86;
+    --slightly-desaturated-orange--dark:#B89163;
+    --dark-moderate-orange--yellow-tone:#9F7748;
+    --dark-moderate-orange-black-tone:#7D5E39;
+    --very-dark-orange--brown-tone:#572F00;   
+    /* use "var()" nos lugares de cores e automaticamente vai puxar para escolher as cores de cima */
+  }
+
 .quadrado {
 
     width: 750px;
@@ -78,6 +91,12 @@ p {
 
 }
 
+#btn:hover {
+
+    background-color: #9F7748;
+    color: white;
+}
+
 #btnt {
 
     width: 180px;
@@ -97,6 +116,12 @@ p {
 
 }
 
+#btnt:hover {
+
+    background-color: #9F7748;
+    color: white;
+}
+
 #btnr {
 
     width: 180px;
@@ -114,4 +139,10 @@ p {
     cursor: pointer;
     font-family: 'Antic Slab';
 
+}
+
+#btnr:hover {
+
+    background-color: #9F7748;
+    color: white;
 }

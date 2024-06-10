@@ -110,7 +110,7 @@ form {
     background: #fff;
     padding: 1.5rem 1rem;
     width: 65ch;
-    height: 95ex;
+    height: 100ex;
     /* justify-content: space-evenly; */
     border-radius: 0.5rem;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
@@ -191,7 +191,7 @@ form .create-account {
 .criar-conta  {
 
     position: absolute;
-    margin-top: 33.8%;
+    margin-top: 32.8%;
     margin-left: 1.3%;
     color: #0f71f1;
     font-family: 'Roboto';
